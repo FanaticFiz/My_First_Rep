@@ -6,5 +6,7 @@
     <string name="hello_world">Привет мир!</string>
     <string name="button1name">Next</string>
     <string name="sec_text1">Второе окно</string>
+    <string name="BigText">Большой текст</string>
+    <string name="anglText">Text in Engl</string>
 
 </resources>
