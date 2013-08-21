@@ -22,7 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="Second"></activity>
+        <activity android:name="com.example.first_and_app.activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.first_and_app.Activity3"
+            android:label="@string/title_activity_activity3" >
+        </activity>
     </application>
 
 </manifest>
