@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Моё приложение</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="bg_color">#555</color>
+    <color name="Color1">#889</color>
+    <string name="Description1">Descr</string>
+    <string name="Text_on_Button1">Жми не бойся</string>
+    <string name="Hint_on_Button1">Ну ты и настырный! ХВАТИТ !</string>
+
+</resources>
