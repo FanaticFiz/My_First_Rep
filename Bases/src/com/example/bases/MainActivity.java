@@ -2,6 +2,7 @@ package com.example.bases;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
@@ -46,6 +47,15 @@ public class MainActivity extends Activity
 			but1.setText("");
 		}
 	}
+	
+	public void OnClickBut2(View v) 
+	{
+		Intent intent1 = new Intent();
+		intent1.setClass(MainActivity.this, SecondActivity.class);
+		startActivity(intent1);
+		//finish(); //акрывает предыдущий активити
+	}
+	
 }
 
 

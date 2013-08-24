@@ -38,4 +38,15 @@
         android:onClick="OnClick"
         android:src="@drawable/ho_logo" />
 
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:onClick="OnClickBut2"
+        android:text="@string/Button2" />
+
 </RelativeLayout>
