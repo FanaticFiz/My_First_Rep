@@ -12,14 +12,14 @@ public class MainActivity extends Activity
 	
 	TextView Text_Hello;
 	int Count=0;
-	
+		
 	@Override
 	public void onCreate(Bundle savedInstanceState) 
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		Text_Hello = (TextView) findViewById(R.id.textView1);
+		Text_Hello = (TextView) findViewById(R.id.textView2);
 		
 	}
 
@@ -52,6 +52,9 @@ public class MainActivity extends Activity
 	{
 		Intent intent1 = new Intent();
 		intent1.setClass(MainActivity.this, SecondActivity.class);
+		
+		intent1.putExtra("param", Count);
+		
 		startActivity(intent1);
 		//finish(); //акрывает предыдущий активити
 	}

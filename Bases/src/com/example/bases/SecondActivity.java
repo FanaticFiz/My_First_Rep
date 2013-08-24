@@ -3,16 +3,21 @@ package com.example.bases;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class SecondActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		String parametr = getIntent().getStringExtra("param");
+		
+		TextView ttttt = (TextView) findViewById(R.id.textView111);
+		ttttt.setText(parametr);
+		
 		setContentView(R.layout.activity_second);
-		
-		
-		
+				
 	}
 
 	@Override

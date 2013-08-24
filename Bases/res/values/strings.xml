@@ -13,6 +13,7 @@
     <string name="Hint_on_Button1">Ну ты и настырный! ХВАТИТ !</string>
     <string name="title_activity_second">Второе окно</string>
     <string name="Button2">-&gt;</string>
-    <string name="text_second_activity">Второе окно</string>
+    <string name="text_second_activity">0</string>
+    <color name="Second_act_color">#282</color>
 
 </resources>
