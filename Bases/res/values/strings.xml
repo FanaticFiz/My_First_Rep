@@ -7,13 +7,12 @@
 
     <color name="bg_color">#555</color>
     <color name="Color1">#889</color>
-
-    <string name="Description1">Descr</string>
     <string name="Text_on_Button1">Жми не бойся</string>
     <string name="Hint_on_Button1">Ну ты и настырный! ХВАТИТ !</string>
-    <string name="title_activity_second">Второе окно</string>
     <string name="Button2">-&gt;</string>
     <string name="text_second_activity">0</string>
     <color name="Second_act_color">#282</color>
+    <string name="qw234"/>
+    <string name="title_activity_second">Второе окно же тут</string>
 
 </resources>

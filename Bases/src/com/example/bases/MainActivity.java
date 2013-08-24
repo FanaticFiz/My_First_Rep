@@ -53,7 +53,8 @@ public class MainActivity extends Activity
 		Intent intent1 = new Intent();
 		intent1.setClass(MainActivity.this, SecondActivity.class);
 		
-		intent1.putExtra("param", Count);
+		String stroka = "12";
+		intent1.putExtra("qwerty", stroka);
 		
 		startActivity(intent1);
 		//finish(); //акрывает предыдущий активити

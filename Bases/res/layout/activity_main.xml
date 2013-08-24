@@ -28,16 +28,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="116dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:contentDescription="@string/Description1"
-        android:onClick="OnClick"
-        android:src="@drawable/ho_logo" />
-
     <Button
         android:id="@+id/button2"
         style="?android:attr/buttonStyleSmall"
@@ -48,5 +38,16 @@
         android:layout_alignParentRight="true"
         android:onClick="OnClickBut2"
         android:text="@string/Button2" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_marginTop="23dp"
+        android:contentDescription="@string/qw234"
+        android:onClick="OnClick"
+        android:src="@drawable/ho_logo" />
 
 </RelativeLayout>

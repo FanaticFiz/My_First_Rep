@@ -10,13 +10,13 @@
     tools:context=".SecondActivity" >
 
     <TextView
-        android:id="@+id/textView111"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/text_second_activity"
         android:textColor="@color/Second_act_color"
-        android:textSize="200sp" />
+        android:textSize="100sp" />
 
 </RelativeLayout>
