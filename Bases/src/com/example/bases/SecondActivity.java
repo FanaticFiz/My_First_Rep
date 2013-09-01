@@ -16,9 +16,8 @@ public class SecondActivity extends Activity {
 		Intent i = getIntent();
 		String istri = i.getStringExtra("qwerty");
 		
-		TextView sometextparam = (TextView) findViewById(R.id.textView1);
-		sometextparam.setText(istri);
-						
+			
+	
 	}
 
 	@Override

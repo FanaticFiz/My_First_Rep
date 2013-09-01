@@ -1,5 +1,8 @@
 package com.example.bases;
 
+import java.security.SecureRandom;
+import java.util.Random;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +13,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity 
 {
 	
-	TextView Text_Hello;
+	TextView Text_Hello, testtext;
 	int Count=0;
 		
 	@Override
@@ -21,6 +24,10 @@ public class MainActivity extends Activity
 		
 		Text_Hello = (TextView) findViewById(R.id.textView2);
 		
+		testtext = (TextView) findViewById(R.id.textView1); 
+		testtext.setText("TestText");
+		testtext.setTextSize(50);
+		
 	}
 
 	@Override
@@ -30,6 +37,13 @@ public class MainActivity extends Activity
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+	
+	public void OnTextViewClick(View v) 
+	{
+		
+		
+	}
+	
 	
 	public void OnClick(View v) 
 	{
@@ -53,7 +67,7 @@ public class MainActivity extends Activity
 		Intent intent1 = new Intent();
 		intent1.setClass(MainActivity.this, SecondActivity.class);
 		
-		String stroka = "12";
+		String stroka = "Text";
 		intent1.putExtra("qwerty", stroka);
 		
 		startActivity(intent1);

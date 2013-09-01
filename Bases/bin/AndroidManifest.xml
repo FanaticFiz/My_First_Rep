@@ -26,7 +26,7 @@
         <activity
             android:name="com.example.bases.SecondActivity"
             android:label="@string/title_activity_second"
-            android:theme="@android:style/Theme.Dialog">
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         </activity>
     </application>
 
